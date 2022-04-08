@@ -1,0 +1,21 @@
+syntax= "proto3";
+option csharp_namespace = "GrpcGreeter";
+
+package example;
+
+service Example{
+    // Unary
+    rpc UnaryCall (ExampleRequest) returns (ExampleResponse);
+  
+}
+
+message ExampleRequest {
+    int32 pageIndex = 1;
+    int32 pageSize = 2;
+    bool isDescending = 3;
+}
+
+// The response message containing the greetings.
+message ExampleResponse {
+    string message = 1;
+}

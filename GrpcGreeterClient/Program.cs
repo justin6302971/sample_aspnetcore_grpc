@@ -17,8 +17,12 @@ namespace GrpcGreeterClient
             using var channel = GrpcChannel.ForAddress("http://localhost:5000");
             var client = new Greeter.GreeterClient(channel);
             var reply = await client.SayHelloAsync(new HelloRequest { Name = "GreeterClient" });
+
             Console.WriteLine("Greeting: " + reply.Message);
-        
+
+            var client1 = new Example.ExampleClient(channel);
+            var reply1 = await client1.UnaryCallAsync(new ExampleRequest { });
+            Console.WriteLine("agent: " + reply1.Message);
         }
     }
 }
