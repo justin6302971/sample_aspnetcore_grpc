@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcGreeter", "GrpcGreeter\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcGreeterClient", "GrpcGreeterClient\GrpcGreeterClient.csproj", "{260F3A26-C5F3-4BEA-ADB3-12046F888A03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP.DataAccess", "SP.DataAccess\SP.DataAccess.csproj", "{98F507CF-93FB-4C7A-80D9-6662FCAA27CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{260F3A26-C5F3-4BEA-ADB3-12046F888A03}.Release|x64.Build.0 = Release|Any CPU
 		{260F3A26-C5F3-4BEA-ADB3-12046F888A03}.Release|x86.ActiveCfg = Release|Any CPU
 		{260F3A26-C5F3-4BEA-ADB3-12046F888A03}.Release|x86.Build.0 = Release|Any CPU
+		{98F507CF-93FB-4C7A-80D9-6662FCAA27CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F507CF-93FB-4C7A-80D9-6662FCAA27CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F507CF-93FB-4C7A-80D9-6662FCAA27CF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{98F507CF-93FB-4C7A-80D9-6662FCAA27CF}.Debug|x64.Build.0 = Debug|Any CPU
+		{98F507CF-93FB-4C7A-80D9-6662FCAA27CF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{98F507CF-93FB-4C7A-80D9-6662FCAA27CF}.Debug|x86.Build.0 = Debug|Any CPU
+		{98F507CF-93FB-4C7A-80D9-6662FCAA27CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F507CF-93FB-4C7A-80D9-6662FCAA27CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F507CF-93FB-4C7A-80D9-6662FCAA27CF}.Release|x64.ActiveCfg = Release|Any CPU
+		{98F507CF-93FB-4C7A-80D9-6662FCAA27CF}.Release|x64.Build.0 = Release|Any CPU
+		{98F507CF-93FB-4C7A-80D9-6662FCAA27CF}.Release|x86.ActiveCfg = Release|Any CPU
+		{98F507CF-93FB-4C7A-80D9-6662FCAA27CF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

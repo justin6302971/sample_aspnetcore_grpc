@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcGreeter";
+
+package person;
+
+service Person{
+  rpc GetPerson (PersonRequest) returns (Response);
+}
+
+
+message PersonRequest {
+  string firstName = 1;
+}
+
+message PersonModel {
+  string id=1;
+  string firstName = 2;
+  string lastName = 3;
+}
+
+
+message Response {
+  bool isSuccess=1;
+  repeated PersonModel items = 2;
+}

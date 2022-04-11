@@ -7,6 +7,8 @@
   <ItemGroup>
     <Protobuf Include="Protos\greet.proto" GrpcServices="Client" />
     <Protobuf Include="Protos\example.proto" GrpcServices="Client" />
+    <Protobuf Include="Protos\person.proto" GrpcServices="Client" />
+
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Google.Protobuf" Version="3.20.0" />
